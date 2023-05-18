@@ -1,0 +1,1 @@
+/* Aqui vai ficar toda a lógica e animação do programa */
