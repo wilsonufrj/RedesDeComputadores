@@ -1,0 +1,22 @@
+.next-topic-button{
+    text-decoration: none ;
+    background-color: brown;
+}
+
+.button-left{
+    border-right: #fff;
+    border-right-style: solid ;
+}
+
+a{
+    color: #fff;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+a p{
+    padding: 2px;
+}
