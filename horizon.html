@@ -23,7 +23,6 @@
         <link href="css/sb-admin-2.css" rel="stylesheet">
         <link href="css/index.css" rel="stylesheet">
 
-
     </head>
 
     <body id="page-top">
@@ -76,13 +75,12 @@
                                 Computing</a>
                             <a class="collapse-item" href="estruturaTI.html">Estrutura
                                 TI Tradicional</a>
-                                <a class="collapse-item" href="Iaas.html">Iaas</a>
+                            <a class="collapse-item" href="Iaas.html">Iaas</a>
                             <a class="collapse-item"
                                 href="componentesOpenStack.html">Componentes</a>
                             <a class="collapse-item" href="casosUso.html">Casos
                                 de uso</a>
                             <a class="collapse-item" href="bibliografia.html">Bibliografia</a>
-
                         </div>
                     </div>
                 </li>
@@ -105,28 +103,34 @@
                 <div id="content">
                     <!-- Begin Page Content -->
                     <div class="container-fluid">
+
+                        <!-- Page Heading -->
+                        <div
+                            class="d-sm-flex align-items-center justify-content-between mb-4">
+                        </div>
+
                         <!-- Content Row -->
                         <div class="row">
 
                             <div class="col">
-                                <h1><strong>Estrutura tradicional</strong> </h1>
+                                <h1><strong>Horizon </strong>
+                                </h1>
                                 <section>
+                                    <h4>O que é o Horizon?</h4>
                                     <p>
-                                        Tradicionalmente, os modelos de infraestrutura utilizam recursos físicos de Hardwares para fazer Networks (como os Switches), Virtualização (servidores) e Storage. 
+                                        <strong>Definição</strong>:"Horizon é a principal implementação do Painel de Controle do OpenStack, que oferece uma interface de usuário baseada na web para os serviços do OpenStack, incluindo Nova, Swift, Keystone, etc."
                                     </p>
                                     <p>
-                                        Antes dos modelos de infraestrutura como serviço (IaaS), a virtualização e a criação de ambientes de TI envolviam a aquisição e configuração de hardware físico específico para cada aplicação ou serviço. Cada servidor físico era dedicado a uma função específica, como um servidor web, um servidor de banco de dados, um servidor de arquivos, etc. Isso levava a uma utilização ineficiente dos recursos, pois muitas vezes os servidores operavam com capacidade ociosa.
+                                        O Horizon fornece uma interface amigável, com menus, painéis e formulários, que facilitam a interação com os serviços do OpenStack. Ele apresenta informações sobre os recursos da nuvem de forma organizada e permite que os usuários realizem ações de forma simples e intuitiva, sem a necessidade de conhecimentos avançados em linha de comando ou programação. Porém, nada impede que os usuários utilizem linhas de comando para gerenciar sua nuvem.
                                     </p>
                                     <p>
-                                        Vamos considerar o exemplo de um desenvolvedor que precisa realizar testes para sua aplicação. Antes dos modelos de IaaS, o desenvolvedor teria que adquirir e configurar um servidor físico separado para cada ambiente de teste necessário, como ambiente de desenvolvimento, ambiente de testes de integração, ambiente de testes de desempenho, entre outros.
+                                        O Horizon se comunica com os diversos serviços do OpenStack, como Keystone, Nova, Neutron, Glance e outros, por meio de APIs. Com isso, ele obtém informações sobre os recursos da nuvem, como instâncias de máquinas virtuais, redes, imagens de máquinas virtuais, projetos, usuários e outros elementos.
                                     </p>
                                     <p>
-                                        Cada servidor físico seria configurado com o sistema operacional e as dependências necessárias para executar a aplicação e realizar os testes específicos. Isso exigiria tempo e recursos significativos, além de aumentar a complexidade de gerenciamento. Ou seja, a etapa de criação de VMs era um “gargalo” da operação pois exigia muito tempo para integrar os recursos de Hardware. 
-                                    </p>
-                                    <p>
-                                        Com a evolução da virtualização e o surgimento dos modelos de IaaS, como o OpenStack, a abordagem mudou. Agora, em vez de adquirir e configurar servidores físicos dedicados, as empresas podem criar ambientes virtuais flexíveis usando recursos compartilhados. Dessa forma, os recursos de hardware podem ser integrados em questão de poucos minutos e não exigiam mais conhecimentos técnicos avançados para serem configurados.
+                                        Devido a essa comunicação integrada, por meio do Horizon, os usuários podem realizar várias tarefas, como criar e gerenciar instâncias de máquinas virtuais, configurar redes, adicionar e remover usuários, monitorar o consumo de recursos, gerenciar projetos e realizar outras operações relacionadas à administração da nuvem tudo através de uma interface gráfica amigável e intuitiva.
                                     </p>
                                 </section>
+
                                 <nav aria-label="Page navigation example">
                                     <ul class="pagination">
                                         <li class="page-item"
@@ -134,8 +138,8 @@
                                             <button
                                                 class="btn bg-danger btn-group-lg">
                                                 <a class="row"
-                                                    href="./cloudComputing.html">
-                                                    <p class="mb-0">Breve introdução ao Cloudcomputing</p>
+                                                    href="./componentesOpenStack.html">
+                                                    <p class="mb-0">Componentes</p>
                                                 </a>
                                             </button>
                                         </li>
@@ -145,14 +149,15 @@
                                             <button
                                                 class="btn bg-danger btn-group-lg">
                                                 <a class="row"
-                                                    href="./Iaas.html">
-                                                    <p class="mb-0">Iaas(Infrastructure as a Service)</p>
+                                                    href="./nova.html">
+                                                    <p class="mb-0">Nova</p>
                                                 </a>
                                             </button>
                                         </li>
 
                                     </ul>
                                 </nav>
+
                             </div>
 
                         </div>

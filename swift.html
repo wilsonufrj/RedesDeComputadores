@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content>
+        <meta name="author" content>
+
+        <title>Open Stack - 2023.1</title>
+
+        <!-- Custom fonts for this template-->
+        <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet"
+            type="text/css">
+        <link
+            href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+            rel="stylesheet">
+
+        <!-- Custom styles for this template-->
+        <link href="css/sb-admin-2.css" rel="stylesheet">
+        <link href="css/index.css" rel="stylesheet">
+
+    </head>
+
+    <body id="page-top">
+
+        <!-- Page Wrapper -->
+        <div id="wrapper">
+
+            <!-- Sidebar -->
+            <ul
+                class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion"
+                id="accordionSidebar">
+
+                <!-- Sidebar - Brand -->
+                <a
+                    class="sidebar-brand d-flex align-items-center justify-content-center"
+                    href="index.html">
+                    <div class="sidebar-brand-icon ">
+                        <img src="./img/picto-openstack.svg"
+                            alt="logo-openStack" style="height: 60px;">
+                    </div>
+                    <div class="sidebar-brand-text mx-3">Open stack </div>
+                </a>
+
+                <!-- Divider -->
+                <hr class="sidebar-divider my-0">
+
+                <!-- Nav Item - Dashboard -->
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">
+                        <i class="fas fa-fw fa-tachometer-alt"></i>
+                        <span>Home</span></a>
+                </li>
+
+                <!-- Divider -->
+                <hr class="sidebar-divider">
+
+                <!-- Nav Item - Pages Collapse Menu -->
+                <li class="nav-item">
+                    <a class="nav-link collapsed" href="#"
+                        data-toggle="collapse" data-target="#collapsePages"
+                        aria-expanded="true" aria-controls="collapsePages">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>Tópicos</span>
+                    </a>
+                    <div id="collapsePages" class="collapse"
+                        aria-labelledby="headingPages"
+                        data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                            <a class="collapse-item" href="cloudComputing.html">Cloud
+                                Computing</a>
+                            <a class="collapse-item" href="estruturaTI.html">Estrutura
+                                TI Tradicional</a>
+                            <a class="collapse-item" href="Iaas.html">Iaas</a>
+                            <a class="collapse-item"
+                                href="componentesOpenStack.html">Componentes</a>
+                            <a class="collapse-item" href="casosUso.html">Casos
+                                de uso</a>
+                            <a class="collapse-item" href="bibliografia.html">Bibliografia</a>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- Divider -->
+                <hr class="sidebar-divider d-none d-md-block">
+
+                <!-- Sidebar Toggler (Sidebar) -->
+                <div class="text-center d-none d-md-inline">
+                    <button class="rounded-circle border-0" id="sidebarToggle"></button>
+                </div>
+
+            </ul>
+            <!-- End of Sidebar -->
+
+            <!-- Content Wrapper -->
+            <div id="content-wrapper" class="d-flex flex-column">
+
+                <!-- Main Content -->
+                <div id="content">
+                    <!-- Begin Page Content -->
+                    <div class="container-fluid">
+
+                        <!-- Page Heading -->
+                        <div
+                            class="d-sm-flex align-items-center justify-content-between mb-4">
+                        </div>
+
+                        <!-- Content Row -->
+                        <div class="row">
+
+                            <div class="col">
+                                <h1><strong>Swift </strong>
+                                </h1>
+                                <section>
+                                    <h4>O que é o Swift?</h4>
+                                    <p>
+                                        <strong>Definição</strong>:O Swift é um
+                                        componente do OpenStack e é um serviço
+                                        de armazenamento em objetos altamente
+                                        escalável e durável. Ele fornece
+                                        armazenamento em nuvem para objetos e
+                                        arquivos de qualquer tamanho, como
+                                        imagens, vídeos, backups, documentos,
+                                        entre outros.
+                                    </p>
+                                    <p>
+                                        O Swift foi projetado para lidar com
+                                        grandes quantidades de dados não
+                                        estruturados de forma eficiente,
+                                        permitindo a escalabilidade horizontal e
+                                        a alta disponibilidade. Ele distribui os
+                                        dados em vários servidores chamados de
+                                        "armazenadores" (storage nodes) em um
+                                        cluster. Cada objeto é replicado e
+                                        armazenado em diferentes armazenadores,
+                                        garantindo a redundância e a
+                                        durabilidade dos dados.<br>Principais
+                                        características e funcionalidades do
+                                        Swift:
+                                    </p>
+                                    <p>
+                                        <ul>
+                                            <li>
+                                                Escalabilidade horizontal: O
+                                                Swift permite adicionar novos
+                                                servidores de armazenamento para
+                                                aumentar a capacidade de
+                                                armazenamento e a taxa de
+                                                transferência. À medida que mais
+                                                servidores são adicionados, o
+                                                Swift distribui os dados
+                                                automaticamente entre eles.
+                                            </li>
+                                            <li>
+                                                Redundância e durabilidade: Os
+                                                dados são replicados em vários
+                                                servidores para garantir a
+                                                disponibilidade contínua dos
+                                                objetos. O Swift utiliza uma
+                                                política de replicação
+                                                configurável, onde é possível
+                                                definir o número de cópias dos
+                                                objetos.
+                                            </li>
+
+                                            <li>
+                                                Tolerância a falhas: O Swift é
+                                                projetado para lidar com falhas
+                                                de hardware e software sem
+                                                interrupção no acesso aos
+                                                objetos. Se um armazenador
+                                                falhar, o Swift replica os
+                                                objetos em outros servidores
+                                                disponíveis.
+                                            </li>
+
+                                            <li>
+                                                Acesso via API RESTful: O Swift
+                                                é acessado por meio de uma API
+                                                RESTful, que permite que os
+                                                desenvolvedores e aplicativos
+                                                interajam com os objetos e
+                                                realizem operações como upload,
+                                                download, exclusão e listagem de
+                                                objetos.
+                                            </li>
+                                            <li>
+                                                Metadados e marcação: O Swift
+                                                permite associar metadados aos
+                                                objetos, o que facilita a
+                                                organização e a busca de objetos
+                                                com base em critérios
+                                                específicos. Os metadados podem
+                                                ser usados para adicionar
+                                                informações adicionais aos
+                                                objetos, como nome, tipo, autor,
+                                                data de criação, entre outros.
+                                            </li>
+                                            <li>
+                                                Suporte a políticas de acesso: O
+                                                Swift possui recursos de
+                                                controle de acesso baseados em
+                                                políticas que permitem definir
+                                                permissões granulares para
+                                                objetos e contêineres. É
+                                                possível controlar quem pode
+                                                ler, gravar ou excluir objetos
+                                                com base em regras específicas.
+                                            </li>
+                                            <li>
+                                                Integração com outros serviços
+                                                OpenStack: O Swift pode ser
+                                                integrado a outros serviços do
+                                                OpenStack, como o Keystone
+                                                (serviço de identidade) e o
+                                                Glance (serviço de imagem),
+                                                permitindo uma integração mais
+                                                fácil e eficiente dentro do
+                                                ecossistema do OpenStack.
+                                            </li>
+
+                                        </ul>
+                                    </p>
+                                    <p>
+                                        Por fim, o swift é usado por muitas
+                                        organizações para construir serviços de
+                                        armazenamento em nuvem altamente
+                                        escaláveis e duráveis, oferecendo um
+                                        ambiente confiável para o armazenamento
+                                        de grandes volumes de dados não
+                                        estruturados.
+                                    </p>
+                                </section>
+
+                                <nav aria-label="Page navigation example">
+                                    <ul class="pagination">
+                                        <li class="page-item"
+                                            class="btn bg-danger btn-group-lg">
+                                            <button
+                                                class="btn bg-danger btn-group-lg">
+                                                <a class="row"
+                                                    href="./glance.html">
+                                                    <p class="mb-0">Glance</p>
+                                                </a>
+                                            </button>
+                                        </li>
+
+                                        <li class="page-item"
+                                            class="btn bg-danger btn-group-lg">
+                                            <button
+                                                class="btn bg-danger btn-group-lg">
+                                                <a class="row"
+                                                    href="./neutron.html">
+                                                    <p class="mb-0">Neutron</p>
+                                                </a>
+                                            </button>
+                                        </li>
+
+                                    </ul>
+                                </nav>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!-- /.container-fluid -->
+
+                </div>
+                <!-- End of Main Content -->
+
+                <!-- Footer -->
+                <footer class="sticky-footer bg-white">
+                    <div class="container my-auto">
+                        <div class="copyright text-center my-auto">
+                            <span>Copyright &copy; Open Stack - 2023.1 Redes de
+                                Computadores</span>
+                        </div>
+                    </div>
+                </footer>
+                <!-- End of Footer -->
+
+            </div>
+            <!-- End of Content Wrapper -->
+
+        </div>
+        <!-- End of Page Wrapper -->
+
+        <!-- Scroll to Top Button-->
+        <a class="scroll-to-top rounded" href="#page-top">
+            <i class="fas fa-angle-up"></i>
+        </a>
+
+        <!-- Bootstrap core JavaScript-->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Core plugin JavaScript-->
+        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+        <!-- Custom scripts for all pages-->
+        <script src="js/sb-admin-2.min.js"></script>
+    </body>
+
+</html>

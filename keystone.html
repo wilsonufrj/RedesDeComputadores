@@ -23,7 +23,6 @@
         <link href="css/sb-admin-2.css" rel="stylesheet">
         <link href="css/index.css" rel="stylesheet">
 
-
     </head>
 
     <body id="page-top">
@@ -76,13 +75,12 @@
                                 Computing</a>
                             <a class="collapse-item" href="estruturaTI.html">Estrutura
                                 TI Tradicional</a>
-                                <a class="collapse-item" href="Iaas.html">Iaas</a>
+                            <a class="collapse-item" href="Iaas.html">Iaas</a>
                             <a class="collapse-item"
                                 href="componentesOpenStack.html">Componentes</a>
                             <a class="collapse-item" href="casosUso.html">Casos
                                 de uso</a>
                             <a class="collapse-item" href="bibliografia.html">Bibliografia</a>
-
                         </div>
                     </div>
                 </li>
@@ -105,28 +103,51 @@
                 <div id="content">
                     <!-- Begin Page Content -->
                     <div class="container-fluid">
+
+                        <!-- Page Heading -->
+                        <div
+                            class="d-sm-flex align-items-center justify-content-between mb-4">
+                        </div>
+
                         <!-- Content Row -->
                         <div class="row">
 
                             <div class="col">
-                                <h1><strong>Estrutura tradicional</strong> </h1>
+                                <h1><strong>Keystone </strong>
+                                </h1>
                                 <section>
-                                    <p>
-                                        Tradicionalmente, os modelos de infraestrutura utilizam recursos físicos de Hardwares para fazer Networks (como os Switches), Virtualização (servidores) e Storage. 
+                                    <h4>O que é o Keystone?</h4>
+                                    <p>Keystone é um componente central do
+                                        OpenStack que fornece serviços de
+                                        identidade e autenticação para toda a
+                                        plataforma de nuvem. Ele desempenha um
+                                        papel fundamental no gerenciamento de
+                                        usuários, projetos e permissões,
+                                        garantindo a segurança e o controle de
+                                        acesso aos recursos do OpenStack.
+
                                     </p>
                                     <p>
-                                        Antes dos modelos de infraestrutura como serviço (IaaS), a virtualização e a criação de ambientes de TI envolviam a aquisição e configuração de hardware físico específico para cada aplicação ou serviço. Cada servidor físico era dedicado a uma função específica, como um servidor web, um servidor de banco de dados, um servidor de arquivos, etc. Isso levava a uma utilização ineficiente dos recursos, pois muitas vezes os servidores operavam com capacidade ociosa.
-                                    </p>
-                                    <p>
-                                        Vamos considerar o exemplo de um desenvolvedor que precisa realizar testes para sua aplicação. Antes dos modelos de IaaS, o desenvolvedor teria que adquirir e configurar um servidor físico separado para cada ambiente de teste necessário, como ambiente de desenvolvimento, ambiente de testes de integração, ambiente de testes de desempenho, entre outros.
-                                    </p>
-                                    <p>
-                                        Cada servidor físico seria configurado com o sistema operacional e as dependências necessárias para executar a aplicação e realizar os testes específicos. Isso exigiria tempo e recursos significativos, além de aumentar a complexidade de gerenciamento. Ou seja, a etapa de criação de VMs era um “gargalo” da operação pois exigia muito tempo para integrar os recursos de Hardware. 
-                                    </p>
-                                    <p>
-                                        Com a evolução da virtualização e o surgimento dos modelos de IaaS, como o OpenStack, a abordagem mudou. Agora, em vez de adquirir e configurar servidores físicos dedicados, as empresas podem criar ambientes virtuais flexíveis usando recursos compartilhados. Dessa forma, os recursos de hardware podem ser integrados em questão de poucos minutos e não exigiam mais conhecimentos técnicos avançados para serem configurados.
+                                        O Keystone é um serviço de autenticação
+                                        e autorização (identity service) na
+                                        plataforma OpenStack. Ele fornece
+                                        autenticação centralizada e
+                                        gerenciamento de identidade para os
+                                        diversos componentes do OpenStack. O
+                                        Keystone permite que os usuários se
+                                        autentiquem em um único local e obtenham
+                                        tokens de acesso, que são usados para
+                                        acessar outros serviços do OpenStack,
+                                        como o Nova (serviço de computação), o
+                                        Neutron (serviço de rede) e o Cinder
+                                        (serviço de armazenamento). O Keystone
+                                        também gerencia as políticas de
+                                        autorização, determinando quais ações e
+                                        recursos os usuários têm permissão para
+                                        acessar.
                                     </p>
                                 </section>
+
                                 <nav aria-label="Page navigation example">
                                     <ul class="pagination">
                                         <li class="page-item"
@@ -134,8 +155,8 @@
                                             <button
                                                 class="btn bg-danger btn-group-lg">
                                                 <a class="row"
-                                                    href="./cloudComputing.html">
-                                                    <p class="mb-0">Breve introdução ao Cloudcomputing</p>
+                                                    href="./ceilometer.html">
+                                                    <p class="mb-0">Ceilometer</p>
                                                 </a>
                                             </button>
                                         </li>
@@ -145,14 +166,15 @@
                                             <button
                                                 class="btn bg-danger btn-group-lg">
                                                 <a class="row"
-                                                    href="./Iaas.html">
-                                                    <p class="mb-0">Iaas(Infrastructure as a Service)</p>
+                                                    href="./casosUso.html">
+                                                    <p class="mb-0">Casos de Uso</p>
                                                 </a>
                                             </button>
                                         </li>
 
                                     </ul>
                                 </nav>
+
                             </div>
 
                         </div>
