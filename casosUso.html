@@ -21,6 +21,7 @@
 
         <!-- Custom styles for this template-->
         <link href="css/sb-admin-2.css" rel="stylesheet">
+        <link href="css/index.css" rel="stylesheet">
 
     </head>
 
@@ -39,7 +40,8 @@
                     class="sidebar-brand d-flex align-items-center justify-content-center"
                     href="index.html">
                     <div class="sidebar-brand-icon ">
-                        <img src="./img/picto-openstack.svg" alt="logo-openStack" style="height: 60px;">
+                        <img src="./img/picto-openstack.svg"
+                            alt="logo-openStack" style="height: 60px;">
                     </div>
                     <div class="sidebar-brand-text mx-3">Open stack </div>
                 </a>
@@ -72,11 +74,13 @@
                             <a class="collapse-item" href="cloudComputing.html">Cloud
                                 Computing</a>
                             <a class="collapse-item" href="estruturaTI.html">Estrutura
-                                TI</a>
+                                TI Tradicional</a>
+                            <a class="collapse-item" href="Iaas.html">Iaas</a>
                             <a class="collapse-item"
                                 href="componentesOpenStack.html">Componentes</a>
                             <a class="collapse-item" href="casosUso.html">Casos
                                 de uso</a>
+                            <a class="collapse-item" href="bibliografia.html">Bibliografia</a>
                         </div>
                     </div>
                 </li>
@@ -103,20 +107,245 @@
                         <!-- Page Heading -->
                         <div
                             class="d-sm-flex align-items-center justify-content-between mb-4">
-                            <h1 class="h3 mb-0 text-gray-800">Open Stack</h1>
                         </div>
 
                         <!-- Content Row -->
                         <div class="row">
-                            <div class="col ">
-                                Aqui vai a imagem
-                            </div>
 
                             <div class="col">
-                                <h2><strong>O que é Open Stack ?</strong> </h2>
+                                <h2><strong>Casos de Uso </strong>
+                                </h2>
+
+                                <p> Aqui serão apresentados três casos de uso da
+                                    OpenStack </p>
                                 <section>
-                                    Open stack é .....
-                                 </section>
+                                    <h3>Caso de uso: PayPal</h3>
+                                    <p>
+                                        PayPal é uma empresa de serviços
+                                        financeiros online que oferece uma
+                                        plataforma de pagamento eletrônico para
+                                        transações comerciais e pessoais. Como
+                                        uma das principais plataformas de
+                                        pagamento do mundo, o PayPal processa
+                                        uma enorme quantidade de transações
+                                        diariamente e precisa garantir a
+                                        segurança, a escalabilidade e a
+                                        confiabilidade de seus sistemas.
+                                    </p>
+                                    <p>
+                                        Para atender a esses requisitos, o
+                                        PayPal adotou o OpenStack como parte de
+                                        sua estratégia de infraestrutura de
+                                        nuvem privada. O uso do OpenStack
+                                        permite que o PayPal crie e gerencie sua
+                                        própria nuvem privada, fornecendo
+                                        recursos de computação, armazenamento e
+                                        rede para suportar suas operações.
+                                    </p>
+                                    <p>
+                                        Ao usar o OpenStack, o PayPal obtém os
+                                        seguintes benefícios:
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <strong> Escalabilidade e
+                                                flexibilidade</strong>: O
+                                            OpenStack permite que o PayPal
+                                            dimensione seus recursos de acordo
+                                            com as necessidades em constante
+                                            mudança, garantindo que eles possam
+                                            lidar com picos de demanda durante
+                                            períodos de alto volume de
+                                            transações.
+                                        </li>
+                                        <li>
+                                            <strong>Automação e agilidade</strong>:
+                                            O PayPal pode automatizar o
+                                            provisionamento e a configuração de
+                                            recursos de nuvem por meio do
+                                            OpenStack, o que agiliza o processo
+                                            de implantação de novas aplicações e
+                                            serviços.
+                                        </li>
+                                        <li>
+                                            <strong>Controle e segurança</strong>:
+                                            Ao usar uma nuvem privada baseada no
+                                            OpenStack, o PayPal mantém o
+                                            controle total sobre sua
+                                            infraestrutura e dados, garantindo a
+                                            segurança dos dados confidenciais
+                                            dos seus usuários.
+                                        </li>
+                                        <li>
+                                            <strong>Padronização e
+                                                interoperabilidade</strong>: O
+                                            OpenStack é uma plataforma de código
+                                            aberto adotada por uma ampla
+                                            comunidade, o que garante a
+                                            interoperabilidade entre diferentes
+                                            soluções e permite que o PayPal
+                                            evite o lock-in do fornecedor.
+                                        </li>
+                                    </ul>
+                                    <p>
+                                        No geral, o uso do OpenStack pelo PayPal
+                                        permite que eles construam uma
+                                        infraestrutura de nuvem robusta,
+                                        flexível e altamente disponível, que
+                                        suporta suas operações de pagamento
+                                        online de forma eficiente e segura.
+                                    </p>
+                                </section>
+                                <hr>
+                                <section>
+                                    <h3>Caso de uso: CERN(Organização Europeia
+                                        para a Pesquisa Nuclear)</h3>
+                                    <p>O OpenStack é usado no CERN para fornecer
+                                        a capacidade computacional necessária
+                                        para processar e analisar os enormes
+                                        volumes de dados gerados pelos
+                                        experimentos do LHC. Aqui estão alguns
+                                        detalhes sobre o uso do OpenStack no
+                                        CERN:</p>
+                                    <ul>
+                                        <li>
+                                            <strong>Armazenamento de dados</strong>:
+                                            O CERN utiliza o OpenStack Swift, o
+                                            componente de armazenamento de
+                                            objetos do OpenStack, para armazenar
+                                            e gerenciar os dados gerados pelos
+                                            experimentos do LHC. O Swift fornece
+                                            um armazenamento altamente
+                                            escalonável e durável para os dados
+                                            do CERN.
+                                        </li>
+                                        <li>
+                                            <strong>Computação em nuvem</strong>:
+                                            O OpenStack Nova, o componente de
+                                            computação do OpenStack, é usado
+                                            para provisionar e gerenciar as
+                                            instâncias de máquinas virtuais
+                                            necessárias para processar os dados
+                                            do LHC. O CERN aproveita a
+                                            flexibilidade e escalabilidade do
+                                            OpenStack para dimensionar a
+                                            capacidade de computação de acordo
+                                            com as necessidades em constante
+                                            mudança.
+                                        </li>
+                                        <li>
+                                            <strong>Orquestração</strong>: O
+                                            CERN utiliza o OpenStack Heat, o
+                                            componente de orquestração do
+                                            OpenStack, para automatizar e
+                                            gerenciar a implantação de recursos
+                                            de computação em nuvem. O Heat
+                                            permite que o CERN defina modelos de
+                                            infraestrutura como código,
+                                            facilitando a implantação e a
+                                            replicação de ambientes complexos de
+                                            computação.
+                                        </li>
+                                    </ul>
+                                    <p>
+                                        Por fim, o CERN utiliza o OpenStack para
+                                        criar uma infraestrutura de nuvem
+                                        robusta e escalável que permite
+                                        processar, armazenar e analisar os dados
+                                        gerados por seus experimentos de física
+                                        de partículas. O OpenStack desempenha um
+                                        papel fundamental no suporte às
+                                        operações do CERN e permite que eles
+                                        avancem em sua pesquisa científica de
+                                        ponta.
+                                    </p>
+                                </section>
+                                <hr>
+                                <section>
+                                    <h3>Caso de uso: Walmart</h3>
+                                    <p>O Walmart utiliza o OpenStack como parte
+                                        de sua estratégia de nuvem privada para
+                                        melhorar a escalabilidade, flexibilidade
+                                        e eficiência de suas operações de
+                                        e-commerce. A empresa implementou o
+                                        OpenStack para virtualizar e gerenciar
+                                        seus recursos de computação,
+                                        armazenamento e rede internamente.</p>
+                                    <p>Alguns casos de uso especificos do
+                                        OpenStack no Walmar são:</p>
+                                    <ul>
+                                        <li>
+                                            <strong>Escalabilidade e
+                                                dimensionamento</strong>: O
+                                            OpenStack permite ao Walmart escalar
+                                            horizontalmente suas capacidades de
+                                            computação, atendendo às
+                                            necessidades de pico do tráfego de
+                                            e-commerce. Isso permite que a
+                                            empresa aumente ou diminua a
+                                            capacidade de acordo com a demanda,
+                                            garantindo um desempenho consistente
+                                            para seus serviços online.
+                                        </li>
+                                        <li>
+                                            <strong>Automação de infraestrutura</strong>:
+                                            O OpenStack permite ao Walmart
+                                            automatizar a implantação e o
+                                            gerenciamento de sua infraestrutura
+                                            de TI. Isso simplifica as operações
+                                            e agiliza os processos de
+                                            provisionamento de recursos,
+                                            reduzindo o tempo e os esforços
+                                            necessários para implantar e
+                                            configurar novos serviços e
+                                            aplicativos.
+                                        </li>
+                                        <li>
+                                            <strong>Consolidação de recursos</strong>:
+                                            Com o OpenStack, o Walmart pode
+                                            consolidar seus recursos de
+                                            computação, armazenamento e rede em
+                                            uma plataforma unificada. Isso ajuda
+                                            a otimizar o uso dos recursos,
+                                            reduzindo a necessidade de
+                                            infraestrutura física redundante e
+                                            economizando custos operacionais.
+                                        </li>
+                                    </ul>
+                                    <p>
+                                        Por ultimo, é valido ressaltar que as
+                                        implementações e casos de uso da
+                                        OpenStack em empresas privadas podem
+                                        varias de acordo com a demanda.
+                                    </p>
+                                </section>
+                                <nav aria-label="Page navigation example">
+                                    <ul class="pagination">
+                                        <li class="page-item"
+                                            class="btn bg-danger btn-group-lg">
+                                            <button
+                                                class="btn bg-danger btn-group-lg">
+                                                <a class="row"
+                                                    href="./componentesOpenStack.html">
+                                                    <p class="mb-0">Componentes</p>
+                                                </a>
+                                            </button>
+                                        </li>
+
+                                        <li class="page-item"
+                                            class="btn bg-danger btn-group-lg">
+                                            <button
+                                                class="btn bg-danger btn-group-lg">
+                                                <a class="row"
+                                                    href="./bibliografia.html">
+                                                    <p class="mb-0">Bibliografia</p>
+                                                </a>
+                                            </button>
+                                        </li>
+
+                                    </ul>
+                                </nav>
+
                             </div>
 
                         </div>

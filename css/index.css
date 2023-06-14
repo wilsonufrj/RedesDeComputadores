@@ -20,3 +20,11 @@ a:hover{
 a p{
     padding: 2px;
 }
+
+li{
+    margin-right: 1rem;
+}
+
+section ul li{
+    text-align: justify;
+}

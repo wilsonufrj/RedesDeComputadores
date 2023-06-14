@@ -21,6 +21,8 @@
 
         <!-- Custom styles for this template-->
         <link href="css/sb-admin-2.css" rel="stylesheet">
+        <link href="css/index.css" rel="stylesheet">
+
 
     </head>
 
@@ -39,7 +41,8 @@
                     class="sidebar-brand d-flex align-items-center justify-content-center"
                     href="index.html">
                     <div class="sidebar-brand-icon ">
-                        <img src="./img/picto-openstack.svg" alt="logo-openStack" style="height: 60px;">
+                        <img src="./img/picto-openstack.svg"
+                            alt="logo-openStack" style="height: 60px;">
                     </div>
                     <div class="sidebar-brand-text mx-3">Open stack </div>
                 </a>
@@ -72,11 +75,13 @@
                             <a class="collapse-item" href="cloudComputing.html">Cloud
                                 Computing</a>
                             <a class="collapse-item" href="estruturaTI.html">Estrutura
-                                TI</a>
+                                TI Tradicional</a>
+                                <a class="collapse-item" href="Iaas.html">Iaas</a>
                             <a class="collapse-item"
                                 href="componentesOpenStack.html">Componentes</a>
                             <a class="collapse-item" href="casosUso.html">Casos
                                 de uso</a>
+                            <a class="collapse-item" href="bibliografia.html">Bibliografia</a>
                         </div>
                     </div>
                 </li>
@@ -99,24 +104,184 @@
                 <div id="content">
                     <!-- Begin Page Content -->
                     <div class="container-fluid">
-
-                        <!-- Page Heading -->
-                        <div
-                            class="d-sm-flex align-items-center justify-content-between mb-4">
-                            <h1 class="h3 mb-0 text-gray-800">Open Stack</h1>
-                        </div>
-
                         <!-- Content Row -->
                         <div class="row">
-                            <div class="col ">
-                                Aqui vai a imagem
-                            </div>
-
                             <div class="col">
-                                <h2><strong>O que é Open Stack ?</strong> </h2>
-                                <section>
-                                    Open stack é .....
-                                 </section>
+                                <h2><strong>Componentes Open Stack</strong> </h2>
+                                <p>
+                                    Os componentes OpenStacks são elementos que trabalham em conjunto para fornecer os recursos de computação na nuvem.
+                                </p>
+                                <div class="container text-center">
+                                    <div class="row mt-2">
+                                        <div class="col-4">
+                                            <div id="card-horizon" class="card" style="width: 9rem;" >
+                                                <img style="padding: 1rem;" class="rounded" src="./img/horizon_logo.png" alt="">
+                                                <div class="card-body" style="padding-bottom: 5px; padding-top: 5px;">
+                                                    <h5 class="card-title">Horizon</h5>
+                                                    <button class="btn bg-danger">
+                                                        <a class="row" href="./cloudComputing.html">
+                                                            <p class="mb-0">Saiba Mais</p>
+                                                        </a>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-4">
+                                            <div id="card-horizon" class="card" style="width: 9rem;" >
+                                                <img style="padding: 1rem;" class="rounded" src="./img/nova_logo.png" alt="">
+                                                <div class="card-body" style="padding-bottom: 5px; padding-top: 5px;">
+                                                    <h5 class="card-title">Nova</h5>
+                                                    <button class="btn bg-danger">
+                                                        <a class="row" href="./cloudComputing.html">
+                                                            <p class="mb-0">Saiba Mais</p>
+                                                        </a>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-4">
+                                            <div id="card-horizon" class="card" style="width: 9rem;" >
+                                                <img style="padding: 1rem;" class="rounded" src="./img/glance_logo.png" alt="">
+                                                <div class="card-body" style="padding-bottom: 5px; padding-top: 5px;">
+                                                    <h5 class="card-title">Glance</h5>
+                                                    <button class="btn bg-danger">
+                                                        <a class="row" href="./cloudComputing.html">
+                                                            <p class="mb-0">Saiba Mais</p>
+                                                        </a>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    
+                                    <div class="row mt-2">
+                                        <div class="col-4">
+                                            <div id="card-horizon" class="card" style="width: 9rem;" >
+                                                <img style="padding: 1rem;" class="rounded" src="./img/swift_logo.png" alt="">
+                                                <div class="card-body" style="padding-bottom: 5px; padding-top: 5px;">
+                                                    <h5 class="card-title">Swift</h5>
+                                                    <button class="btn bg-danger">
+                                                        <a class="row" href="./cloudComputing.html">
+                                                            <p class="mb-0">Saiba Mais</p>
+                                                        </a>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        
+
+                                        <div class="col-4">
+                                            <div id="card-horizon" class="card" style="width: 9rem;" >
+                                                <img style="padding: 1rem;" class="rounded" src="./img/neutron_logo.png" alt="">
+                                                <div class="card-body" style="padding-bottom: 5px; padding-top: 5px;">
+                                                    <h5 class="card-title">Neutron</h5>
+                                                    <button class="btn bg-danger">
+                                                        <a class="row" href="./cloudComputing.html">
+                                                            <p class="mb-0">Saiba Mais</p>
+                                                        </a>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-4">
+                                            <div id="card-horizon" class="card" style="width: 9rem;" >
+                                                <img style="padding: 1rem;" class="rounded" src="./img/cinder_logo.png" alt="">
+                                                <div class="card-body" style="padding-bottom: 5px; padding-top: 5px;">
+                                                    <h5 class="card-title">Cinder</h5>
+                                                    <button class="btn bg-danger">
+                                                        <a class="row" href="./cloudComputing.html">
+                                                            <p class="mb-0">Saiba Mais</p>
+                                                        </a>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+
+                                    <div class="row mt-2">
+                                        <div class="col-4">
+                                            <div id="card-horizon" class="card" style="width: 9rem;" >
+                                                <img style="padding: 1rem;" class="rounded" src="./img/heat_logo.png" alt="">
+                                                <div class="card-body" style="padding-bottom: 5px; padding-top: 5px;">
+                                                    <h5 class="card-title">Heat</h5>
+                                                    <button class="btn bg-danger">
+                                                        <a class="row" href="./cloudComputing.html">
+                                                            <p class="mb-0">Saiba Mais</p>
+                                                        </a>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        
+
+                                        <div class="col-4">
+                                            <div id="card-horizon" class="card" style="width: 9rem;" >
+                                                <img style="padding: 1rem;" class="rounded" src="./img/barbican_logo.png" alt="">
+                                                <div class="card-body" style="padding-bottom: 5px; padding-top: 5px;">
+                                                    <h5 class="card-title">Ceilometer</h5>
+                                                    <button class="btn bg-danger">
+                                                        <a class="row" href="./cloudComputing.html">
+                                                            <p class="mb-0">Saiba Mais</p>
+                                                        </a>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-4">
+                                            <div id="card-horizon" class="card" style="width: 9rem;" >
+                                                <img style="padding: 1rem;" class="rounded" src="./img/keystone_logo.png" alt="">
+                                                <div class="card-body" style="padding-bottom: 5px; padding-top: 5px;">
+                                                    <h5 class="card-title">Keystone</h5>
+                                                    <button class="btn bg-danger">
+                                                        <a class="row" href="./cloudComputing.html">
+                                                            <p class="mb-0">Saiba Mais</p>
+                                                        </a>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                                <div style="margin-top: 2rem;">
+                                    <nav aria-label="Page navigation example">
+                                        <ul class="pagination">
+                                            <li class="page-item"
+                                                class="btn bg-danger btn-group-lg">
+                                                <button
+                                                    class="btn bg-danger btn-group-lg">
+                                                    <a class="row"
+                                                        href="./Iaas.html">
+                                                        <p class="mb-0">Iaas(Infrastructure as a Service)</p>
+                                                    </a>
+                                                </button>
+                                            </li>
+    
+                                            <li class="page-item"
+                                                class="btn bg-danger btn-group-lg">
+                                                <button
+                                                    class="btn bg-danger btn-group-lg">
+                                                    <a class="row"
+                                                        href="./casosUso.html">
+                                                        <p class="mb-0">Casos de Uso</p>
+                                                    </a>
+                                                </button>
+                                            </li>
+    
+                                        </ul>
+                                    </nav>
+
+                                </div>
                             </div>
 
                         </div>
@@ -158,6 +323,7 @@
 
         <!-- Custom scripts for all pages-->
         <script src="js/sb-admin-2.min.js"></script>
+        <script src="js/index.js"></script>
     </body>
 
 </html>
